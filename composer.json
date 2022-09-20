@@ -1,16 +1,16 @@
 {
-    "name": "andrisan/laracat",
+    "name": "ronaldozt/laracat",
     "description": "Package untuk menampilkan gambar kucing",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Andrisan\\Laracat\\": "src/"
+            "ronaldoztupang\\Laracat\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Andri Santoso",
-            "email": "andrisan@ub.ac.id"
+            "name": "Ronaldo Simatupang",
+            "email": "ronaldoztupang@gmail.com"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Andrisan\\Laracat\\LaracatServiceProvider"
+                "ronaldoztupang\\Laracat\\LaracatServiceProvider"
             ]
         }
     }
